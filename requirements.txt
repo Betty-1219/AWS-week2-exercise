@@ -1,0 +1,24 @@
+# Mini Semantic Search — Python dependencies
+# ============================================
+# Install with:
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.13.  All versions below were the latest stable
+# releases compatible with each other and with Python 3.13 as of late 2024.
+
+# Data loading and manipulation
+pandas==2.2.3
+
+# Pretrained sentence embedding models (includes torch as a dependency)
+sentence-transformers==3.3.1
+
+# Vector database — persistent local storage and similarity search
+chromadb==0.5.23
+
+# Jupyter Notebook environment
+notebook==7.3.2
+ipykernel==6.29.5
+
+# Testing
+pytest==8.3.4
